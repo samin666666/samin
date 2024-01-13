@@ -1,0 +1,75 @@
+
+#para1 {
+  color: red;
+}
+.center{
+  color: rgb(40, 126, 0);
+  text-align: center;
+}
+
+body {
+  background-color: #ffffff;
+}
+h2 {
+  color: red;
+  background-color: aqua;
+  font-family: verdana;
+  font-size: 300%;
+ 
+}
+p  {
+  color: blue;
+  font-family: courier;
+  font-size: 100%;
+}
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+img {
+  width: 30%;
+  height: 30%;
+  float:left;
+  margin-top: 5%;
+}
+table,th,td {
+  font-family: arial, sans-serif;
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+  
+}
+table {
+  /* border-spacing: 10px; */
+  width: 100%;
+ 
+}
+th, td {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
